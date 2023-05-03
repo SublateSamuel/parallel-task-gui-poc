@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyexe-poc"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Sublate <samuelsublate.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyexe_poc"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyQt5 = "^5.15.9"
+selene = "^1.0.2"
+pywin32 = "^306"
+winshell = "^0.6"
+Cython = "^0.29.34"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
